@@ -1,0 +1,16 @@
+p{
+    justify-self: center;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#texteAbout-me{
+    justify-self: left;
+}
+h3{
+    color: #e63f8d;
+    text-shadow: 0 0 5px #ff0077, 0 0 10px #ff0077, 0 0 20px #ff0077;
+}

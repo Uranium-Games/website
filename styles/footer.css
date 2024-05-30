@@ -1,0 +1,36 @@
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1em;
+    color: #00ffd5;
+    text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: #00ffd5;
+        text-shadow: 0 0 5px #ff0077, 0 0 10px #ff0077, 0 0 20px #ff0077;
+    }
+    a:hover {
+        text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5, 0 0 20px #00ffd5;
+    }
+    .ContainerLink {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .ContainerLink a {
+        margin: 0 10px;
+        /* Ajustez la marge selon votre préférence */
+    }
+
+    .ContainerLink img {
+        width: 40px;
+        /* Ajustez la taille des logos selon votre préférence */
+        height: auto;
+        /* Pour maintenir les proportions */
+    }
+}

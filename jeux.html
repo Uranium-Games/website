@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uranium Games | Jeux</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/logos/logo-site.png" />
+    <style>
+        .game-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2em;
+            padding: 2em;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 2em;
+        }
+
+        .game {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1em;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .game a {
+            color: #00ffd5;
+            text-decoration: none;
+            font-size: 1.2em;
+            text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5, 0 0 20px #00ffd5;
+        }
+
+        .game img {
+            width: 100%;
+            height: auto;
+            border: 3px solid #00ffd5;
+            box-shadow: 0 0 10px #00ffd5;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 1em;
+        }
+
+        .game img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #ff0077;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><a href="/website/index.html">Uranium Games</a></h1>
+        <hr class="separation">
+        </hr>
+        <nav>
+            <ul>
+                <li><a href="about-me.html">À propos</a></li>
+                <li><a href="faq.html">F.A.Q.</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="videos.html">Vidéos</a></li>
+                <li><a href="jeux.html">Fun & Jeux</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section id="games">
+            <h2>Jouez a différents jeux navigateurs sympas :</h2>
+            <div class="game-container">
+                <div class="game">
+                    <h3>2048</h3>
+                    <a href="https://play2048.co/" target="_blank">Play Now</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png"
+                        alt="2048 Game">
+                </div>
+                <div class="game">
+                    <h3>Flappy Bird</h3>
+                    <a href="https://flappybird.io/" target="_blank">Play Now</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png"
+                        alt="Flappy Bird Game">
+                </div>
+                <div class="game">
+                    <h3>Tic Tac Toe - Morpion</h3>
+                    <a href="https://playtictactoe.org/" target="_blank">Play Now</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Tic_tac_toe.svg"
+                        alt="Tic Tac Toe Game">
+                </div>
+                <div class="game">
+                    <h3>Snake Game by Kyra Coding</h3>
+                    <a href="https://kyra110.github.io/SmallGameSnake/" target="_blank">Play Now</a>
+                    <img src="assets/images/snakekyracoding.png" alt="Snake Game by kyra coding">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>Contact :</h3>
+        <div class="ContainerLink">
+            <br>
+            <a href="https://www.youtube.com/@UraniumGames" target="_blank"><img src="assets/logos/youtube-logo.png"
+                    alt="youtube"></a>
+            <br>
+            <a href="https://www.instagram.com/uranium_games_ytboffi/" target="_blank"><img
+                    src="assets/logos/instagram-logo.png" alt="instagram"></a>
+            <br>
+            <a href="https://discord.gg/cTTmsCfPn3" target="_blank"><img src="assets/logos/discord-mark-white.png"
+                    alt="discord"></a>
+
+        </div>
+        <p>&copy;2024 <a href=https://www.youtube.com/@UraniumGames>Uranium_Games</a>, tous droits réservés. Site
+            hébérgé grâce à
+            GitHub Merci a eux !</p>
+
+    </footer>
+</body>
+
+</html>

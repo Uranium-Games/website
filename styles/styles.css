@@ -1,0 +1,95 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(index.css);
+@import url(faq.css);
+@import url(videos.css);
+@import url(about-me.css);
+
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url(../assets/wallpaper/roadpaper.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+main{
+    padding: 2em;
+}
+
+section{ 
+    margin-bottom: 2em;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    border-radius: 10px;
+    display: grid;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        color: #00ffd5;
+        text-shadow: 0 0 5px #ff0077, 0 0 10px #ff0077, 0 0 20px #ff0077;
+    }
+
+    a:hover{ 
+        text-shadow: 0 0 5px #00ffd5, 0 0 10px #00ffd5, 0 0 20px #00ffd5;
+    }
+
+    .latest-video-embed {
+        display: grid;
+        justify-content: center;
+    }
+
+    img {
+        height: 225px;
+        width: 400px;
+    }
+
+    .playlistMusique {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #e63f8d;
+    text-shadow: 0 0 5px #ff0077, 0 0 10px #ff0077, 0 0 20px #ff0077;
+    margin-bottom: 1em;
+}
+
+h3{
+    color: #e63f8d;
+    text-shadow: 0 0 5px #ff0077, 0 0 10px #ff0077, 0 0 20px #ff0077;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    transition: transform 0.3s, box-shadow 0.3s;
+    align-self: center;
+}
+
+.grid-item img {
+    width: 300px;
+    height: auto;
+    border: 3px solid #00ffd5;
+    box-shadow: 0 0 10px #00ffd5;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff0077;
+}
+
+
+

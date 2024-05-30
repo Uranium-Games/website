@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uranium Games | F.A.Q</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/logos/logo-site.png" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="/website/index.html">Uranium Games</a></h1>
+        <hr class="separation">
+        </hr>
+        <nav>
+            <ul>
+                <li><a href="about-me.html">À propos</a></li>
+                <li><a href="faq.html">F.A.Q.</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="videos.html">Vidéos</a></li>
+                <li><a href="jeux.html">Fun & Jeux</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="containerFaq">
+            <h2>FAQ - Foire Aux Questions</h2>
+            <p>Retrouvez ici toutes les réponses aux questions non répondue dans mon <a
+                    href="https://uranium-games.github.io/Uranium-Games.com/about-me.html">À propos</a></p>
+            <p>D'autres questions seront répondues au fur et à mesure. Posez les dans les commentaire de mes vidéos et
+                j'y répondrais avec joie.</p>
+            <div class="questionAnswerContainer">
+
+                <div class="faq-item" id="mantra">
+                    <div class="question">- Quel est votre mantra ou citation préféré(e) qui vous motive au quotidien ?
+                    </div>
+                    <div class="answer">
+                        <p>Les erreurs ne sont pas des entraves à la progression, mais les fondements même de ce que
+                            nous sommes.</p>
+                        <p>- Mavis Vermillon Fairy Tail</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">- Quel aspect de votre personnalité pensez-vous être le moins connu de vos
+                        abonnés ?</div>
+                    <div class="answer">
+                        <p>Les idées mal placées. </p>
+                    </div>
+                </div>
+                <div class="faq-item" id="quebec">
+                    <div class="question">- Quelle est votre destination de voyage de rêve et pourquoi ?</div>
+                    <div class="answer">
+                        <p>J'ai très envie de déménager complément au Québec, que cela soit pour les paysages ou même
+                            pour l'ambiance là bas et puis j'aime beaucoup l'ambiance américaine</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">- Quel est le conseil le plus important que vous avez reçu dans votre vie ?
+                    </div>
+                    <div class="answer">
+                        <p>Rester soit même, ne pas se donner un rôle ou une image que l'on à pas.</p>
+                        <p><a href="https://www.youtube.com/@steelorse">- Steelorse</a></p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">- Si vous pouviez rencontrer une personne célèbre, qui choisiriez-vous et
+                        pourquoi ?</div>
+                    <div class="answer">
+                        <p>La question se pose t-elle vraiment ?</p>
+                        <p>Okay okay je réponds quand même, je choisirais de revoir encore Siphano car j'aimerais parler
+                            avec lui, prendre conseil avec lui et bien d'autre choses.</p>
+                        <p><a href="https://www.youtube.com/@Siphano13">Chaîne de Siphano</a></p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">- Puis-je vous envoyer des jeux ou des produits à tester sur votre chaîne ?</div>
+                    <div class="answer">
+                        <p>Evidemment contactez moi par <a href="mailto:Uranium_GamesYT@outlook.fr">e-mail</a> et je vous répondrais dans les plus brefs délais.</p>
+                        <p>Nous discutrons évidemment conditions si c'est une OP sponsorisée.</p>
+                    </div>
+                </div>
+                <!-- Ajoutez autant d'éléments FAQ que nécessaire -->
+                <div class="videoFAQ">
+                    <h2>Vidéo F.A.Q</h2>
+                    <div class="containerVideoFAQ">
+                        Vidéo F.A.Q non disponible pour le moment.
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <script>
+        // JavaScript pour basculer l'affichage des réponses
+        const questions = document.querySelectorAll('.question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.classList.toggle('show');
+            });
+        });
+    </script>
+    <footer>
+        <h3>Contact :</h3>
+        <div class="ContainerLink">
+            <br>
+            <a href="https://www.youtube.com/@UraniumGames" target="_blank"><img src="assets/logos/youtube-logo.png"
+                    alt="youtube"></a>
+            <br>
+            <a href="https://www.instagram.com/uranium_games_ytboffi/" target="_blank"><img src="assets/logos/instagram-logo.png"
+                    alt="instagram"></a>
+            <br>
+            <a href="https://discord.gg/cTTmsCfPn3" target="_blank"><img src="assets/logos/discord-mark-white.png" alt="discord"></a>
+
+        </div>
+        <p>&copy;2024 <a href=https://www.youtube.com/@UraniumGames>Uranium_Games</a>, tous droits réservés. Site
+            hébérgé grâce à
+            GitHub Merci a eux !</p>
+
+    </footer>
+</body>
+</html>
